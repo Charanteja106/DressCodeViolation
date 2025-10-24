@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Faculty Dress Code Scanner</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h2 style="text-align:center;">Faculty - Dress Code Violation Scanner</h2>
+
+  <div id="camera"></div>
+  <div id="result">Scan student ID barcode</div>
+
+  <form id="violation-form" style="display:none;">
+    <h3>Mark Violations for Student <span id="student-id"></span></h3>
+    <label><input type="checkbox" value="No clean shave beard" name="violation" /> No clean shave beard</label>
+    <label><input type="checkbox" value="Untucked shirt" name="violation" /> Untucked shirt</label>
+    <label><input type="checkbox" value="No shoes" name="violation" /> No shoes</label>
+    <label><input type="checkbox" value="Improper dress code" name="violation" /> Improper dress code</label>
+    <label>Other: <input type="text" id="other-text" placeholder="Specify other violation" /></label>
+    <button type="button" id="submit-violation">Submit Violations</button>
+  </form>
+
+  <button id="review-btn" style="margin-left: 10px;">Go to HOD Review Portal</button>
+
+  <script src="https://cdn.jsdelivr.net/npm/@ericblade/quagga2/dist/quagga.min.js"></script>
+  <script src="faculty.js"></script>
+</body>
+</html>

@@ -1,0 +1,109 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f0f2f5;
+  color: #333;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+form {
+  max-width: 400px;
+  margin: 20px auto;
+  background: white;
+  padding: 15px;
+  border-radius: 7px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  display: block;
+  margin: 8px 0;
+  font-weight: 600;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 6px;
+  font-size: 1em;
+  margin-top: 4px;
+}
+
+button {
+  background-color: #2980b9;
+  color: white;
+  font-weight: bold;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #1c5980;
+}
+
+#camera {
+  width: 640px;
+  height: 480px;
+  margin: 10px auto;
+  border: 2px solid #333;
+  background-color: black;
+}
+
+#result {
+  text-align: center;
+  margin: 10px 0;
+  font-weight: bold;
+  font-size: 1.2em;
+  color: #2980b9;
+}
+
+table {
+  width: 90%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+th {
+  background-color: #3498db;
+  color: white;
+}
+
+.approve-btn {
+  background-color: #27ae60;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  margin-right: 5px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.revoke-btn {
+  background-color: #c0392b;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.approve-btn:hover {
+  background-color: #1e8449;
+}
+
+.revoke-btn:hover {
+  background-color: #922b21;
+}
