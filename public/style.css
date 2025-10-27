@@ -107,3 +107,32 @@ th {
 .revoke-btn:hover {
   background-color: #922b21;
 }
+
+
+
+
+/*............ login page styles........... */
+.login-container {
+  width: 360px;
+  margin: 100px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background: #f9f9f9;
+  border-radius: 8px;
+}
+.login-container input {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+}
+.login-container button {
+  width: 100%;
+  padding: 10px;
+  background: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.login-container button:hover {
+  background: #45a049;
+}
