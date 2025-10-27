@@ -100,7 +100,7 @@ app.post('/api/violations/:id/revoke', async (req, res) => {
 
 const PORT = 3000;
 app.listen(PORT, async () => {
-  console.log(`Server running at http://localhost:${PORT}/faculty_login.html`);
+  console.log(`Server running at http://localhost:${PORT}/index.html`);
   while (!open) await new Promise((r) => setTimeout(r, 100));
-  await open(`http://localhost:${PORT}/faculty_login.html`);
+  await open(`http://localhost:${PORT}/index.html`);
 });
